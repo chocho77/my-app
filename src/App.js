@@ -1,6 +1,9 @@
 
 import './App.css';
-import UserGreetingOne from './components/UserGreetingOne';
+import NameList from './components/NameList';
+//import UserGreetingThree from './components/UserGreetingThree';
+//import UserGreetingTwo from './components/UserGreetingTwo';
+//import UserGreetingOne from './components/UserGreetingOne';
 //import UserGreeting from './components/UserGreeting';
 //import ParentComponent from './components/ParentComponent';
 //import EventBind from './components/EventBind';
@@ -17,7 +20,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UserGreetingOne />
+        <NameList />
+        {/*<UserGreetingThree />*/}
+        {/*<UserGreetingTwo />*/}
+        {/*<UserGreetingOne />*/}
         {/*<UserGreeting />*/}
         {/*<ParentComponent />*/}
         {/*<EventBind />*/}
